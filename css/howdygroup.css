@@ -1,0 +1,122 @@
+/* 
+    Document   : howdygroup
+    Created on : May 14, 2013, 11:28:08 AM
+    Author     : baibing
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color: rgb(135,135,135);
+}
+
+a.step {
+    font-weight: bold;
+    color: rgb(255,30,30);
+}
+
+a.title_show {
+    color: rgb(135,135,135);
+    font-weight: normal;
+    text-decoration: none;
+}
+
+a.title_show:hover {
+    color: rgb(255,30,30);
+}
+
+.sublist_hide {
+    display: none;
+    margin-left: 1em;
+}
+
+.signup {
+    width: 33%;
+    float: left;
+    margin: 10px 0;
+}
+
+.sub_signup {
+    width: 33%;
+    float: left;
+}
+
+.normalTitle, a.normalTitle
+{
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: black;
+}
+
+a.normalTitle:hover {
+    color: rgb(255,30,30);
+}
+
+.subTitle
+{
+        font-family: Century Gothic, Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size: 14px;
+        color: black;
+}
+
+#plainList ul
+{
+        list-style-type: none;
+}
+
+.signupButton {
+    font-face: 'Century Gothic'; 
+    font-size: 11px; 
+    font-weight: bold;
+    color: rgb(255,30,30); 
+    background-color: rgb(180,180,180); 
+    border: 2px ridge rgb(255,30,30);
+}
+
+.signupButtonBig {
+    font-face: 'Century Gothic'; 
+    font-size: 15px; 
+    font-weight: bold;
+    color: rgb(255,30,30); 
+    background-color: white; 
+    border: 2pt ridge lightgrey;
+}
+
+.people_img {
+    width: 100px;
+}
+
+.people_name {
+    font-weight: bold;
+}
+
+a.newTabLink, a.newTabLink:visited {
+    color: rgb(135,135,135);
+}
+
+a.newTabLink:hover {
+    color: rgb(255,30,30);
+}
+
+img.href {
+    border: 1px solid transparent;
+}
+
+img.href:hover {
+    border: 1px solid rgb(255, 30, 30);
+}
+
+.case_img {
+    width: 20%;
+    float: left;
+    border: 1px solid black;
+    margin: 10px;
+}

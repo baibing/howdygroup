@@ -1,0 +1,23 @@
+.dg-picture-zoom{
+        float: left;
+	cursor : url(http://www.dhtmlgoodies.com/scripts/picture-zoom/cursors/magnify-plus.cur), pointer !important;
+        width: 20%;
+        border: 1px solid rgb(135,135,135);
+        margin: 10px 20px 10px 0;
+}
+.dg-picture-zoom-large{
+	cursor : url(http://www.dhtmlgoodies.com/scripts/picture-zoom/cursors/magnify-minus.cur), pointer !important;
+        height: 80%;
+}
+
+.dg-picture-zoom-border-container{
+    border : 2px solid #FFF;
+    background-color: #FFF;
+    margin-left:-7px;
+    margin-top:-7px;
+    padding:7px;
+    box-shadow:10px 10px 20px #000000;
+    border-radius: 5px;
+
+
+}

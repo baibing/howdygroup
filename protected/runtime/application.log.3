@@ -1,0 +1,11 @@
+2013/06/02 08:48:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "<".' in X:\Sites\yii\framework\web\CController.php:483
+Stack trace:
+#0 X:\Sites\yii\framework\web\CController.php(270): CController->missingAction('<')
+#1 X:\Sites\yii\framework\web\CWebApplication.php(282): CController->run('<')
+#2 X:\Sites\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/<')
+#3 X:\Sites\yii\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 X:\Sites\howdygroup\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/howdygroup/index.php/site/%3C?php%20echo%20Yii::app()-%3Erequest-%3EbaseUrl;%20?%3E/images/scroll/carousel_circle_solid.png
+HTTP_REFERER=http://localhost/howdygroup/index.php/site/index
+---
